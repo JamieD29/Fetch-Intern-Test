@@ -1,0 +1,9 @@
+@mixin GreyText($fs){
+    font-style: normal;
+    font-size: $fs;
+    line-height: 24px;
+    /* or 150% */
+    letter-spacing: 0.5px;
+    /* Grey 05 */
+    color: #b5b5be;
+}
